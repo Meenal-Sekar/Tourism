@@ -1,0 +1,60 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+header{
+    margin-left: 50px;
+}
+nav{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    background-color: pink;
+}
+nav ul
+{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    background-color: lightgreen;
+}
+.s1
+{
+    background-color: black;
+    color:white;
+    padding: 5px;
+    width: 100px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+footer{
+    bottom:0;
+    margin-left: 450px;
+    position: absolute;
+}
+.music
+{
+    font-size: 90px;
+    margin-left: 50px;
+}
+.main-section
+{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.subdiv-1
+{
+    display: flex;
+    align-items: center;
+    justify-content:center
+    
+}
+.subdiv-1 ul li{
+    list-style-type: none;
+}
